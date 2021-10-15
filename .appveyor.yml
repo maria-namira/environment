@@ -25,3 +25,5 @@ deploy_script:  # скрипт развёртывания
   - git config --global user.email ci@appveyor.com
   - echo "https://$GITHUB_TOKEN:x-oauth-basic@github.com" > "$HOME/.git-credentials"
   - yarn run push-dir --dir=dist --branch=gh-pages --force --verbose
+   Command exited with code 1
+   Build failed
